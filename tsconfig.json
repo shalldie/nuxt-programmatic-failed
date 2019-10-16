@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "noImplicitAny": false, //在表达式和声明上有隐含的'any'类型时报错。
+        "moduleResolution": "node",
+        "lib": [
+            "esnext",
+            "esnext.asynciterable",
+            "dom"
+        ],
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "sourceMap": true,
+        // "strict": true,
+        // "noEmit": true,
+        "baseUrl": ".",
+        "paths": {
+            "~/*": [
+                "./client/*"
+            ]
+            // "@/*": [
+            //     "./*"
+            // ]
+        },
+        "types": [
+            "@types/node",
+            "@nuxt/types"
+        ]
+    },
+    "include": [
+        "server/**/*.ts",
+        "client/**/*.vue",
+        "client/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "config/**/*.js"
+    ]
+}
