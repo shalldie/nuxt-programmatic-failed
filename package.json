@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/koa": "^2.0.50",
     "@types/koa-router": "^7.0.42",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.19.3",
     "nuxt-property-decorator": "^2.4.0",
     "sass-loader": "^8.0.0"
